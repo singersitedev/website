@@ -1,0 +1,10 @@
+10:7 is where to switch to the new cover image
+
+above that use the regular image
+
+formula: where the top is 145% or less of the size of the bottom, switch it up, and vice versa.
+
+so:
+
+(width /height) * 100
+
