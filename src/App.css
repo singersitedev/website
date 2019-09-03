@@ -85,8 +85,8 @@ body {
 .menuBottomElement {
   margin: 0;
   margin-top: 2.8vh;
-  height: 10%;
-  width: 10%;
+  width: 3vh;
+  height: auto;
 }
 
 .contentHome {
@@ -143,7 +143,7 @@ a {
 
 .contentText {
   color: white;
-  font-size: 1.7vw;
+  font-size: 1.7vh;
   /*font-weight: bold;*/
 }
 
@@ -193,6 +193,11 @@ a {
   height: 35vw;
   margin-right: 2%;
   margin-bottom: 2vh;
+}
+
+.mediaLink {
+  width: 5vh;
+  height: 5vh;
 }
 
 /*not sure about max-width for this one, check later.  or if it should be first or second*/
