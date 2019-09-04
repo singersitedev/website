@@ -5,6 +5,7 @@ var cover = null;
 var aboutMe = null;
 var upcomingEvents = null;
 var musicAndVideos = null;
+var photoGallery = null;
 var bookingInfo = null;
 var contactMe = null;
 var isHome = true;
@@ -19,6 +20,7 @@ class App extends React.Component {
     this.aboutMeClick = this.aboutMeClick.bind(this);
     this.upcomingEventsClick = this.upcomingEventsClick.bind(this);
     this.musicAndVideosClick = this.musicAndVideosClick.bind(this);
+    this.photoGalleryClick = this.photoGalleryClick.bind(this);
     this.bookingInfoClick = this.bookingInfoClick.bind(this);
     this.contactMeClick = this.contactMeClick.bind(this);
   }
@@ -47,6 +49,9 @@ class App extends React.Component {
       case "musicAndVideos":
         musicAndVideos.style.color = "white";
         break;
+      case "photoGallery":
+        photoGallery.style.color = "white";
+        break;
       case "bookingInfo":
         bookingInfo.style.color = "white";
         break;
@@ -68,6 +73,9 @@ class App extends React.Component {
         break;
       case "musicAndVideos":
         musicAndVideos.style.color = "white";
+        break;
+      case "photoGallery":
+        photoGallery.style.color = "white";
         break;
       case "bookingInfo":
         bookingInfo.style.color = "white";
@@ -92,6 +100,9 @@ class App extends React.Component {
       case "musicAndVideos":
         musicAndVideos.style.color = "white";
         break;
+      case "photoGallery":
+        photoGallery.style.color = "white";
+        break;
       case "bookingInfo":
         bookingInfo.style.color = "white";
         break;
@@ -115,6 +126,9 @@ class App extends React.Component {
       case "musicAndVideos":
         musicAndVideos.style.color = "white";
         break;
+      case "photoGallery":
+          photoGallery.style.color = "white";
+          break;
       case "bookingInfo":
         bookingInfo.style.color = "white";
         break;
@@ -125,6 +139,32 @@ class App extends React.Component {
     this.setState({currentPage: "musicAndVideos"});
     isHome = false;
     musicAndVideos.style.color = "#25a3a4";
+  }
+
+  photoGalleryClick() {
+    switch(this.state.currentPage) {
+      case "aboutMe":
+        aboutMe.style.color = "white";
+        break;
+      case "upcomingEvents":
+        upcomingEvents.style.color = "white";
+        break;
+      case "musicAndVideos":
+        musicAndVideos.style.color = "white";
+        break;
+      case "photoGallery":
+        photoGallery.style.color = "white";
+        break;
+      case "bookingInfo":
+        bookingInfo.style.color = "white";
+        break;
+      case "contactMe":
+        contactMe.style.color = "white";
+        break;
+    }
+    this.setState({currentPage: "photoGallery"});
+    isHome = false;
+    photoGallery.style.color = "#25a3a4";
   }
 
   bookingInfoClick() {
@@ -138,6 +178,9 @@ class App extends React.Component {
       case "musicAndVideos":
         musicAndVideos.style.color = "white";
         break;
+      case "photoGallery":
+          photoGallery.style.color = "white";
+          break;
       case "bookingInfo":
         bookingInfo.style.color = "white";
         break;
@@ -161,6 +204,9 @@ class App extends React.Component {
       case "musicAndVideos":
         musicAndVideos.style.color = "white";
         break;
+      case "photoGallery":
+        photoGallery.style.color = "white";
+        break;
       case "bookingInfo":
         bookingInfo.style.color = "white";
         break;
@@ -178,6 +224,7 @@ class App extends React.Component {
     aboutMe = document.getElementById("aboutMe");
     upcomingEvents = document.getElementById("upcomingEvents");
     musicAndVideos = document.getElementById("musicAndVideos");
+    photoGallery = document.getElementById("photoGallery");
     bookingInfo = document.getElementById("bookingInfo");
     contactMe = document.getElementById("contactMe");
     if(isHome === true) {
@@ -220,6 +267,7 @@ class App extends React.Component {
               <div id="aboutMe" className="menuItem" onClick={this.aboutMeClick}>About Me</div>
               <div id="upcomingEvents" className="menuItem" onClick={this.upcomingEventsClick}>Upcoming Events</div>
               <div id="musicAndVideos" className="menuItem" onClick={this.musicAndVideosClick}>Music &amp; Videos</div>
+              <div id="photoGallery" className="menuItem" onClick={this.photoGalleryClick}>Photo Gallery</div>
               <div id="bookingInfo" className="menuItem" onClick={this.bookingInfoClick}>Booking Info</div>
               <div id="contactMe" className="menuItem" onClick={this.contactMeClick}>Contact Me</div>
             </div>
@@ -253,6 +301,7 @@ class App extends React.Component {
                 <div id="aboutMe" className="menuItem" onClick={this.aboutMeClick}>About Me</div>
                 <div id="upcomingEvents" className="menuItem" onClick={this.upcomingEventsClick}>Upcoming Events</div>
                 <div id="musicAndVideos" className="menuItem" onClick={this.musicAndVideosClick}>Music &amp; Videos</div>
+                <div id="photoGallery" className="menuItem" onClick={this.photoGalleryClick}>Photo Gallery</div>
                 <div id="bookingInfo" className="menuItem" onClick={this.bookingInfoClick}>Booking Info</div>
                 <div id="contactMe" className="menuItem" onClick={this.contactMeClick}>Contact Me</div>
             </div>
@@ -293,6 +342,7 @@ class App extends React.Component {
                 <div id="aboutMe" className="menuItem" onClick={this.aboutMeClick}>About Me</div>
                 <div id="upcomingEvents" className="menuItem" onClick={this.upcomingEventsClick}>Upcoming Events</div>
                 <div id="musicAndVideos" className="menuItem" onClick={this.musicAndVideosClick}>Music &amp; Videos</div>
+                <div id="photoGallery" className="menuItem" onClick={this.photoGalleryClick}>Photo Gallery</div>
                 <div id="bookingInfo" className="menuItem" onClick={this.bookingInfoClick}>Booking Info</div>
                 <div id="contactMe" className="menuItem" onClick={this.contactMeClick}>Contact Me</div>
             </div>
@@ -346,6 +396,7 @@ class App extends React.Component {
                 <div id="aboutMe" className="menuItem" onClick={this.aboutMeClick}>About Me</div>
                 <div id="upcomingEvents" className="menuItem" onClick={this.upcomingEventsClick}>Upcoming Events</div>
                 <div id="musicAndVideos" className="menuItem" onClick={this.musicAndVideosClick}>Music &amp; Videos</div>
+                <div id="photoGallery" className="menuItem" onClick={this.photoGalleryClick}>Photo Gallery</div>
                 <div id="bookingInfo" className="menuItem" onClick={this.bookingInfoClick}>Booking Info</div>
                 <div id="contactMe" className="menuItem" onClick={this.contactMeClick}>Contact Me</div>
             </div>
@@ -388,6 +439,40 @@ class App extends React.Component {
         </div>
       );
     }
+    else if(this.state.currentPage === "photoGallery") {
+      return (
+        <div className="App">
+          <div id="menu" className="menu">
+            <div id="topMenu">
+                <div id="name" className="menuItem" onClick={this.nameClick}>Emily Canning</div>
+                <div id="occupation">Professional Singer</div>
+            </div>
+            <div id="mainMenu">
+                <div id="aboutMe" className="menuItem" onClick={this.aboutMeClick}>About Me</div>
+                <div id="upcomingEvents" className="menuItem" onClick={this.upcomingInfoClick}>Upcoming Events</div>
+                <div id="musicAndVideos" className="menuItem" onClick={this.musicAndVideosClick}>Music &amp; Videos</div>
+                <div id="photoGallery" className="menuItem" onClick={this.photoGalleryClick}>Photo Gallery</div>
+                <div id="bookingInfo" className="menuItem" onClick={this.bookingInfoClick}>Booking Info</div>
+                <div id="contactMe" className="menuItem" onClick={this.contactMeClick}>Contact Me</div>
+            </div>
+            <div id="menuBottom">
+                <div id="twitterDiv">
+                    <a href="https://www.twitter.com/"><img id="twitterLogo" className="menuBottomElement" src="img/twitterLogo.png" alt="twitter"></img></a>
+                </div>
+                <div id="linkedInDiv">
+                    <a href="https://www.linkedin.com/"><img id="linkedInLogo" className="menuBottomElement" src="img/linkedInLogo.png" alt="linkedIn"></img></a>
+                </div>
+                <div id="facebookDiv">
+                    <a href="https://www.facebook.com/"><img id="facebookLogo" className="menuBottomElement" src="img/facebookLogo.png" alt="facebook"></img></a>
+                </div>
+            </div>
+          </div>
+          <div id="photoGallery" className="contentMain">
+            <div className="sectionName">Photo Gallery</div>
+          </div>
+        </div>
+      );
+    }
     else if(this.state.currentPage === "bookingInfo") {
       return (
         <div className="App">
@@ -400,6 +485,7 @@ class App extends React.Component {
                 <div id="aboutMe" className="menuItem" onClick={this.aboutMeClick}>About Me</div>
                 <div id="upcomingEvents" className="menuItem" onClick={this.upcomingInfoClick}>Upcoming Events</div>
                 <div id="musicAndVideos" className="menuItem" onClick={this.musicAndVideosClick}>Music &amp; Videos</div>
+                <div id="photoGallery" className="menuItem" onClick={this.photoGalleryClick}>Photo Gallery</div>
                 <div id="bookingInfo" className="menuItem" onClick={this.bookingInfoClick}>Booking Info</div>
                 <div id="contactMe" className="menuItem" onClick={this.contactMeClick}>Contact Me</div>
             </div>
@@ -433,6 +519,7 @@ class App extends React.Component {
                 <div id="aboutMe" className="menuItem" onClick={this.aboutMeClick}>About Me</div>
                 <div id="upcomingEvents" className="menuItem" onClick={this.upcomingEventsClick}>Upcoming Events</div>
                 <div id="musicAndVideos" className="menuItem" onClick={this.musicAndVideosClick}>Music &amp; Videos</div>
+                <div id="photoGallery" className="menuItem" onClick={this.photoGalleryClick}>Photo Gallery</div>
                 <div id="bookingInfo" className="menuItem" onClick={this.bookingInfoClick}>Booking Info</div>
                 <div id="contactMe" className="menuItem" onClick={this.contactMeClick}>Contact Me</div>
             </div>
