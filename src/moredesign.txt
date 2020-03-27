@@ -1,0 +1,31 @@
+1)
+
+setup variables photoShowcase and videoShowcase
+
+set to null by default and reset every time user enters a new section
+
+setup grid 2 per row minimum, four per row maximum for both
+
+for picture gallery, use same images, for video gallery, every video will require a preview image, to be used
+
+attach an onClick event to each one
+
+setup variable photoNum for number of photos, videoNum for videos
+
+use logic to 
+
+2)
+
+setup variable menuHidden
+
+applies to every page except home
+
+has an element associated with it on the far left of the content area
+
+
+
+CHANGE ISHOME or figure out how to do resize event with react App
+
+remove state objects and have each function get the document element and modify it directly
+
+<Menu determineClick={this.determineClick.bind(this)} />
