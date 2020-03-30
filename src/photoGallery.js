@@ -40,7 +40,11 @@ class PhotoGallery extends React.Component {
             contentName: blankArray,
             gridElementClass: gridElementHiddenArray
         };
-        fetch('serverGetUrlHere' + this.state.currentPage).then(response => response.json())
+        fetch('https://murmuring-lake-50811.herokuapp.com/getPhotoGallery', {
+            method: 'get',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({fetchRequest})
+        }).then(response => response.json())
             .then(data => {
                 let pageAmountTemp = data.contentAmount / 15;
                 if(pageAmountTemp > Math.floor(pageAmountTemp))
@@ -153,7 +157,11 @@ class PhotoGallery extends React.Component {
     }
 
     confirmPageSelect() {
-        fetch('serverGetUrlHere' + this.state.currentPage).then(response => response.json())
+        fetch('https://murmuring-lake-50811.herokuapp.com/getPhotoGallery', {
+            method: 'get',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({fetchRequest})
+        }).then(response => response.json())
             .then(data => {
                 let pageAmountTemp = data.contentAmount / 15;
                 if(pageAmountTemp > Math.floor(pageAmountTemp))

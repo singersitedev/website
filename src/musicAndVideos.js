@@ -41,7 +41,11 @@ class MusicAndVideos extends React.Component {
             contentName: blankArray,
             gridElementClass: gridElementHiddenArray
         };
-        fetch('serverGetUrlHere' + this.state.currentPage).then(response => response.json())
+        fetch('https://murmuring-lake-50811.herokuapp.com/getMusicAndVideos', {
+            method: 'get',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({fetchRequest})
+        }).then(response => response.json())
             .then(data => {
                 let pageAmountTemp = data.contentAmount / 15;
                 if(pageAmountTemp > Math.floor(pageAmountTemp))
@@ -171,11 +175,11 @@ class MusicAndVideos extends React.Component {
             startIndex: this.state.currentPage / 15,
             numRequested: 15
         };
-        fetch('https://murmuring-lake-50811.herokuapp.com/getMusicAndVideos'), {
+        fetch('https://murmuring-lake-50811.herokuapp.com/getMusicAndVideos', {
             method: 'get',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({fetchRequest})
-        }.then(response => response.json())
+        }).then(response => response.json())
             .then(data => {
                 let pageAmountTemp = data.contentAmount / 15;
                 if(pageAmountTemp > Math.floor(pageAmountTemp))
