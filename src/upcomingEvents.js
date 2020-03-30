@@ -98,7 +98,11 @@ class UpcomingEvents extends React.Component {
     }
     //make sure eventTime is always 24 hour time
     returnDivs() {
-        let returnArray = new Array(this.state.data.length);
+        if(this.state.data.length == null) {
+            return null; 
+        }
+        let returnArray = null;
+        new Array(this.state.data.length);
         for(let a = 0; a < this.state.data.length; ++a) {
             let key = "upcomingEvents" + a;
             returnArray[a] = (
