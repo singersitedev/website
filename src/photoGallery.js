@@ -45,7 +45,7 @@ class PhotoGallery extends React.Component {
                 let pageAmountTemp = data.contentAmount / 15;
                 if(pageAmountTemp > Math.floor(pageAmountTemp))
                     pageAmountTemp = Math.floor(pageAmountTemp) + 1;
-                data.gridElementClass = this.setGridElementClass(data.contentName);
+                let gridElementClass = this.setGridElementClass(data.contentName);
                 this.setState({
                     pageAmount: pageAmountTemp,
                     contentAmount: data.contentAmount,
@@ -54,7 +54,7 @@ class PhotoGallery extends React.Component {
                     isContentHidden: "contentHidden",
                     contentUrl: data.contentUrl,
                     contentName: data.contentName,
-                    gridElementClass: data.gridElementClass
+                    gridElementClass: gridElementClass
                 });
             });
     }
@@ -158,7 +158,7 @@ class PhotoGallery extends React.Component {
                 let pageAmountTemp = data.contentAmount / 15;
                 if(pageAmountTemp > Math.floor(pageAmountTemp))
                     pageAmountTemp = Math.floor(pageAmountTemp) + 1;
-                data.gridElementClass = this.setGridElementClass(data.contentName);
+                let gridElementClass = this.setGridElementClass(data.contentName);
                 this.setState({
                     pageAmount: pageAmountTemp,
                     contentAmount: data.contentAmount,
@@ -167,7 +167,7 @@ class PhotoGallery extends React.Component {
                     isContentHidden: "contentHidden",
                     contentUrl: data.contentUrl,
                     contentName: data.contentName,
-                    gridElementClass: data.gridElementClass
+                    gridElementClass: gridElementClass
                 });
             });
     }
