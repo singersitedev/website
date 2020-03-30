@@ -98,7 +98,7 @@ class UpcomingEvents extends React.Component {
     }
     //make sure eventTime is always 24 hour time
     returnDivs() {
-        if(this.state.data.length == null) {
+        if(this.state.data == null) {
             return null; 
         }
         let returnArray = null;
