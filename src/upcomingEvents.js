@@ -9,7 +9,7 @@ class UpcomingEvents extends React.Component {
         this.state = {
             data: null
         };
-        fetch("serverGetUrlHere").then(response => response.json())
+        fetch("https://murmuring-lake-50811.herokuapp.com/getUpcomingEvents").then(response => response.json())
             .then(data => {
                 this.sortByDate(data);
             });
