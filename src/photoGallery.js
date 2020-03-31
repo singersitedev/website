@@ -50,6 +50,7 @@ class PhotoGallery extends React.Component {
             body: JSON.stringify({fetchRequest})
         }).then(response => response.json())
             .then(data => {
+                console.log("data: " + data);
                 let pageAmountTemp = data.contentAmount / 15;
                 if(pageAmountTemp > Math.floor(pageAmountTemp))
                     pageAmountTemp = Math.floor(pageAmountTemp) + 1;
