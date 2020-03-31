@@ -25,7 +25,6 @@ class PageContainer extends React.Component {
                         <Home/>
                     </div>
                 );
-                break;
             case("aboutMe"):
                 return(
                     <div id="pageContainer">
@@ -39,35 +38,30 @@ class PageContainer extends React.Component {
                         <UpcomingEvents/>
                     </div>
                 );
-                break;
             case("musicAndVideos"):
                 return(
                     <div id="pageContainer">
                         <MusicAndVideos/>
                     </div>
                 );
-                break;
             case("photoGallery"):
                 return(
                     <div id="pageContainer">
                         <PhotoGallery/>
                     </div>
                 );
-                break;
             case("bookingInfo"):
                 return(
                     <div id="pageContainer">
                         <BookingInfo/>
                     </div>
                 );
-                break;
             case("contactMe"):
                 return(
                     <div id="pageContainer">
                         <ContactMe/>
                     </div>
                 );
-                break;
             default:
                 return(
                     <div id="pageContainer">

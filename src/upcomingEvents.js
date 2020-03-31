@@ -11,6 +11,7 @@ class UpcomingEvents extends React.Component {
         };
         fetch("https://murmuring-lake-50811.herokuapp.com/getUpcomingEvents").then(response => response.json())
             .then(data => {
+                console.log("data: " + data);
                 this.sortByDate(data);
             });
     }
