@@ -22,7 +22,7 @@ class MusicAndVideos extends React.Component {
         this.previousPage = this.previousPage.bind(this);
         this.nextPage = this.nextPage.bind(this);
         this.confirmPageSelect = this.confirmPageSelect.bind(this);
-        this.createContentPreview = this.confirmPageSelect.bind(this);
+        this.createContentPreview = this.createContentPreview.bind(this);
         this.setGridElementClass = this.setGridElementClass.bind(this);
         let blankArray = new Array(15);
         let gridElementHiddenArray = new Array(15);
@@ -75,7 +75,6 @@ class MusicAndVideos extends React.Component {
     setGridElementClass(contentName) {
         let returnValue = new Array(contentName.length);
         for(let a = 0; a < contentName.length; ++a) {
-            console.log("contentName[" + a + "]: " + contentName[a]);
             if(contentName[a] == null)
                 returnValue[a] = "gridElementHidden";
             else
