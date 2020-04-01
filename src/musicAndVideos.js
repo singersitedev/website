@@ -213,63 +213,63 @@ class MusicAndVideos extends React.Component {
                     <div id="mainContentText">{this.state.contentName[this.state.currentContent]}</div>
                 </div>
                 <div className="gridContainer">
-                    <div className={this.gridElementClass[0]} style={this.state.contentPreview[0]} onClick={this.click0}>
+                    <div className={this.state.gridElementClass[0]} style={this.state.contentPreview[0]} onClick={this.click0}>
                         <img className="gridPreviewImage" src="./img/playButton.png"></img>
                         <div className="gridElementTitle contentText">{this.state.contentName[0]}</div>
                     </div>
-                    <div className={this.gridElementClass[1]} style={this.state.contentPreview[1]} onClick={this.click1}>
+                    <div className={this.state.gridElementClass[1]} style={this.state.contentPreview[1]} onClick={this.click1}>
                         <img className="gridPreviewImage" src="./img/playButton.png"></img>
                         <div className="gridElementTitle contentText">{this.state.contentName[1]}</div>
                     </div>
-                    <div className={this.gridElementClass[2]} style={this.state.contentPreview[2]} onClick={this.click2}>
+                    <div className={this.state.gridElementClass[2]} style={this.state.contentPreview[2]} onClick={this.click2}>
                         <img className="gridPreviewImage" src="./img/playButton.png"></img>
                         <div className="gridElementTitle contentText">{this.state.contentName[2]}</div>
                     </div>
-                    <div className={this.gridElementClass[3]} style={this.state.contentPreview[3]} onClick={this.click3}>
+                    <div className={this.state.gridElementClass[3]} style={this.state.contentPreview[3]} onClick={this.click3}>
                         <img className="gridPreviewImage" src="./img/playButton.png"></img>
                         <div className="gridElementTitle contentText">{this.state.contentName[3]}</div>
                     </div>
-                    <div className={this.gridElementClass[4]} style={this.state.contentPreview[4]} onClick={this.click4}>
+                    <div className={this.state.gridElementClass[4]} style={this.state.contentPreview[4]} onClick={this.click4}>
                         <img className="gridPreviewImage" src="./img/playButton.png"></img>
                         <div className="gridElementTitle contentText">{this.state.contentName[4]}</div>
                     </div>
-                    <div className={this.gridElementClass[5]} style={this.state.contentPreview[5]} onClick={this.click5}>
+                    <div className={this.state.gridElementClass[5]} style={this.state.contentPreview[5]} onClick={this.click5}>
                         <img className="gridPreviewImage" src="./img/playButton.png"></img>
                         <div className="gridElementTitle contentText">{this.state.contentName[5]}</div>
                     </div>
-                    <div className={this.gridElementClass[6]} style={this.state.contentPreview[6]} onClick={this.click6}>
+                    <div className={this.state.gridElementClass[6]} style={this.state.contentPreview[6]} onClick={this.click6}>
                         <img className="gridPreviewImage" src="./img/playButton.png"></img>
                         <div className="gridElementTitle contentText">{this.state.contentName[6]}</div>
                     </div>
-                    <div className={this.gridElementClass[7]} style={this.state.contentPreview[7]} onClick={this.click7}>
+                    <div className={this.state.gridElementClass[7]} style={this.state.contentPreview[7]} onClick={this.click7}>
                         <img className="gridPreviewImage" src="./img/playButton.png"></img>
                         <div className="gridElementTitle contentText">{this.state.contentName[7]}</div>
                     </div>
-                    <div className={this.gridElementClass[8]} style={this.state.contentPreview[8]} onClick={this.click8}>
+                    <div className={this.state.gridElementClass[8]} style={this.state.contentPreview[8]} onClick={this.click8}>
                         <img className="gridPreviewImage" src="./img/playButton.png"></img>
                         <div className="gridElementTitle contentText">{this.state.contentName[8]}</div>
                     </div>
-                    <div className={this.gridElementClass[9]} style={this.state.contentPreview[9]} onClick={this.click9}>
+                    <div className={this.state.gridElementClass[9]} style={this.state.contentPreview[9]} onClick={this.click9}>
                         <img className="gridPreviewImage" src="./img/playButton.png"></img>
                         <div className="gridElementTitle contentText">{this.state.contentName[9]}</div>
                     </div>
-                    <div className={this.gridElementClass[10]} style={this.state.contentPreview[10]} onClick={this.click10}>
+                    <div className={this.state.gridElementClass[10]} style={this.state.contentPreview[10]} onClick={this.click10}>
                         <img className="gridPreviewImage" src="./img/playButton.png"></img>
                         <div className="gridElementTitle contentText">{this.state.contentName[10]}</div>
                     </div>
-                    <div className={this.gridElementClass[11]} style={this.state.contentPreview[11]} onClick={this.click11}>
+                    <div className={this.state.gridElementClass[11]} style={this.state.contentPreview[11]} onClick={this.click11}>
                         <img className="gridPreviewImage" src="./img/playButton.png"></img>
                         <div className="gridElementTitle contentText">{this.state.contentName[11]}</div>
                     </div>
-                    <div className={this.gridElementClass[12]} style={this.state.contentPreview[12]} onClick={this.click12}>
+                    <div className={this.state.gridElementClass[12]} style={this.state.contentPreview[12]} onClick={this.click12}>
                         <img className="gridPreviewImage" src="./img/playButton.png"></img>
                         <div className="gridElementTitle contentText">{this.state.contentName[12]}</div>
                     </div>
-                    <div className={this.gridElementClass[13]} style={this.state.contentPreview[13]} onClick={this.click13}>
+                    <div className={this.state.gridElementClass[13]} style={this.state.contentPreview[13]} onClick={this.click13}>
                         <img className="gridPreviewImage" src="./img/playButton.png"></img>
                         <div className="gridElementTitle contentText">{this.state.contentName[13]}</div>
                     </div>
-                    <div className={this.gridElementClass[14]} style={this.state.contentPreview[14]} onClick={this.click14}>
+                    <div className={this.state.gridElementClass[14]} style={this.state.contentPreview[14]} onClick={this.click14}>
                         <img className="gridPreviewImage" src="./img/playButton.png"></img>
                         <div className="gridElementTitle contentText">{this.state.contentName[14]}</div>
                     </div>
