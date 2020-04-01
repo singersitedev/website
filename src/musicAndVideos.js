@@ -74,10 +74,9 @@ class MusicAndVideos extends React.Component {
 
     setGridElementClass(contentName) {
         for(let a = 0; a < contentName.length; ++a) {
-            if(contentName[a] == "null") {
+            console.log("contentName[" + a + "]: " + contentName[a]);
+            if(contentName[a] == "null")
                 contentName[a] = "gridElementHidden";
-                console.log("this ran");
-            }
             else
                 contentName[a] = "gridElementNotHidden";
         }
