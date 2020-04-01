@@ -11,11 +11,13 @@ class UpcomingEvents extends React.Component {
         };
         fetch("https://murmuring-lake-50811.herokuapp.com/getUpcomingEvents").then(response => response.json())
             .then(data => {
-                console.log("data: " + data);
-                if(data == null) {
-                    console.log("data is null!");
+                if(data.isEmpty) {
+                    this.setState({
+                        data: null
+                    });
                 }
-                this.sortByDate(data);
+                else
+                    this.sortByDate(data);
             });
     }
 
