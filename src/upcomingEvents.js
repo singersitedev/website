@@ -12,6 +12,7 @@ class UpcomingEvents extends React.Component {
         fetch("https://murmuring-lake-50811.herokuapp.com/getUpcomingEvents").then(response => response.json())
             .then(data => {
                 if(data.isEmpty) {
+                    console.log("data is empty worked");
                     this.setState({
                         data: null
                     });
@@ -105,6 +106,7 @@ class UpcomingEvents extends React.Component {
     //make sure eventTime is always 24 hour time
     returnDivs() {
         if(this.state.data == null) {
+            console.log("should return null");
             return null; 
         }
         let returnArray = null;
