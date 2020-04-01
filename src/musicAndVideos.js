@@ -98,6 +98,7 @@ class MusicAndVideos extends React.Component {
                 };
             }
         }
+        console.log("returnValue: " + returnValue);
         return returnArray;
     }
 
