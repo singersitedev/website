@@ -48,7 +48,7 @@ class MusicAndVideos extends React.Component {
         fetch('https://murmuring-lake-50811.herokuapp.com/getMusicAndVideos', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({fetchRequest})
+            body: JSON.stringify(fetchRequest)
         }).then(response => response.json())
             .then(data => {
                 console.log("data: " + data);
@@ -185,7 +185,7 @@ class MusicAndVideos extends React.Component {
         fetch('https://murmuring-lake-50811.herokuapp.com/getMusicAndVideos', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({fetchRequest})
+            body: JSON.stringify(fetchRequest)
         }).then(response => response.json())
             .then(data => {
                 let pageAmountTemp = data.contentAmount / 15;
