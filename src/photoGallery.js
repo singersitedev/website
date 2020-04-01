@@ -69,13 +69,14 @@ class PhotoGallery extends React.Component {
     }
 
     setGridElementClass(contentName) {
+        let returnValue = new Array(contentName.length);
         for(let a = 0; a < contentName.length; ++a) {
             if(contentName[a] == null)
-                contentName[a] = "gridElementHidden";
+                returnValue[a] = "gridElementHidden";
             else
-                contentName[a] = "gridElementNotHidden";
+                returnValue[a] = "gridElementNotHidden";
         }
-        return contentName;
+        return returnValue;
     }
 
     setContent(contentUrlNum) {

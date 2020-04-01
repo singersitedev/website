@@ -73,24 +73,30 @@ class MusicAndVideos extends React.Component {
     }
 
     setGridElementClass(contentName) {
+        let returnValue = new Array(contentName.length);
         for(let a = 0; a < contentName.length; ++a) {
             console.log("contentName[" + a + "]: " + contentName[a]);
             if(contentName[a] == null)
-                contentName[a] = "gridElementHidden";
+                returnValue[a] = "gridElementHidden";
             else
-                contentName[a] = "gridElementNotHidden";
+                returnValue[a] = "gridElementNotHidden";
         }
-        return contentName;
+        return returnValue;
     }
 
     createContentPreview(contentPreview) {
         let returnArray = new Array(15);
         for(let a = 0; a < 15; ++a) {
-            returnArray[a] = {
-                backgroundImage: 'url(' + contentPreview[a] + ')',
-                backgroundSize: 'fill',
-                overflow: 'hidden'
-            };
+            if(contentPreview[a] == null) {
+                returnArray[a] = null;
+            }
+            else {
+                returnArray[a] = {
+                    backgroundImage: 'url(' + contentPreview[a] + ')',
+                    backgroundSize: 'fill',
+                    overflow: 'hidden'
+                };
+            }
         }
         return returnArray;
     }
