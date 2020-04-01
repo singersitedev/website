@@ -11,7 +11,7 @@ class UpcomingEvents extends React.Component {
         };
         fetch("https://murmuring-lake-50811.herokuapp.com/getUpcomingEvents").then(response => response.json())
             .then(data => {
-                if(data.isEmpty) {
+                if(data.isEmpty == "true") {
                     console.log("data is empty worked");
                     this.setState({
                         data: null
