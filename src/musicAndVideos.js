@@ -53,6 +53,7 @@ class MusicAndVideos extends React.Component {
             .then(data => {
                 console.log("data: " + data);
                 console.log("data content amount: " + data.contentAmount);
+                console.log("data content name length: " + data.contentName.length);
                 let pageAmountTemp = data.contentAmount / 15;
                 if(pageAmountTemp > Math.floor(pageAmountTemp))
                     pageAmountTemp = Math.floor(pageAmountTemp) + 1;
