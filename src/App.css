@@ -335,7 +335,7 @@ body {
 
 .gridContainer {
   display: grid;
-  grid-template-columnns: 32% 32% 32%;
+  grid-template-columns: 32% 32% 32%;
   gap: 2%;
 }
 /*
