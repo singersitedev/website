@@ -282,7 +282,7 @@ body {
   border-radius: 25px;
   /*overflow-y: scroll;*/
   background-color: #25a3a4;
-  overflow: visible;
+  overflow: hidden;
 }
 
 #aboutMeImage {
