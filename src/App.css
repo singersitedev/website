@@ -332,3 +332,13 @@ body {
   color: #513b41;
   text-decoration: none;
 }
+
+.gridContainer {
+  display: grid;
+  grid-template-columnns: 32% 32% 32%;
+  gap: 2%;
+}
+
+/*.contentHidden {
+  display: none;
+}*/
