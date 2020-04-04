@@ -334,8 +334,9 @@ body {
 }
 
 #musicAndVideosPage {
+  display:flex;
+  justify-content: center;
   align-items: center;
-  justify-items: center;
 }
 
 .gridContainer {
