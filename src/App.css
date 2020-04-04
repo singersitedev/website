@@ -351,6 +351,10 @@ body {
   text-align: center;
 }
 
+.pageSelectFlexContainer {
+  text-align: center;
+}
+
 /*
 .contentHidden {
   display: none;
