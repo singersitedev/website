@@ -333,18 +333,18 @@ body {
   text-decoration: none;
 }
 
-#musicAndVideosPage {
+/*#musicAndVideosPage {
   display:flex;
   justify-content: center;
   align-items: center;
-}
+}*/
 
 #videoAnchor {
-  display: block;
+  width: 100%;
 }
 
 .pageSelectFlexContainer {
-  display: block;
+  width: 100%;
 }
 
 .gridContainer {
@@ -352,6 +352,7 @@ body {
   grid-template-columns: 32% 32% 32%;
   gap: 0px;
   text-align: center;
+  width: 100%;
 }
 
 .videoContent {
