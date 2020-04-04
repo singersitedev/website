@@ -338,6 +338,7 @@ body {
   grid-template-columns: 32% 32% 32%;
   gap: 0px;
   text-align: center;
+  margin: auto;
 }
 
 .videoContent {
