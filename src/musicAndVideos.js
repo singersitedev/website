@@ -217,9 +217,9 @@ class MusicAndVideos extends React.Component {
         //<iframe className="videoContent" src="https://drive.google.com/file/d/1TnaAjRPDOM86mWYF6Emo4lW5nKoaEQfD/preview" allowfullscreen="allowfullscreen"></iframe>
         return(
             <div id="musicAndVideosPage" className="contentMain">
-                <div className={this.state.isContentHidden}>
+                <div id="videoAnchor" className={this.state.isContentHidden}>
                     <iframe className="videoContent" src={this.state.contentUrl[this.state.currentContent]}></iframe>
-                    <div id="mainContentText">{this.state.contentName[this.state.currentContent]}</div>
+                    <div className="mainContentText">{this.state.contentName[this.state.currentContent]}</div>
                 </div>
                 <div className="gridContainer">
                     <div className={this.state.gridElementClass[0]} style={this.state.contentPreview[0]} onClick={this.click0}>

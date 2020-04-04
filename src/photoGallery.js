@@ -193,8 +193,9 @@ class PhotoGallery extends React.Component {
     render() {
         return(
             <div id="photoGalleryPage" className="contentMain">
-                <div className={this.state.isContentHidden}>
+                <div id="photoAnchor" className={this.state.isContentHidden}>
                     <img className="photoContent" src={this.state.contentUrl[this.state.currentContent]}></img>
+                    <div className="mainContentText">{this.state.contentName[this.state.currentContent]}</div>
                 </div>
                 <div className="gridContainer">
                     <div className={this.state.gridElementClass[0]} onClick={this.click0}>

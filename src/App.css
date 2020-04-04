@@ -338,6 +338,19 @@ body {
   grid-template-columns: 32% 32% 32%;
   gap: 2%;
 }
+
+.videoContent {
+  width: 100%;
+}
+
+.photoContent {
+  width: 100%;
+}
+
+.mainContentText {
+  text-align: center;
+}
+
 /*
 .contentHidden {
   display: none;
