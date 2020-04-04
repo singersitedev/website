@@ -350,7 +350,7 @@ body {
 .gridContainer {
   display: grid;
   grid-template-columns: 32% 32% 32%;
-  gap: 0px;
+  column-gap: 2%;
   text-align: center;
   width: 100%;
 }
