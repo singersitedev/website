@@ -333,13 +333,16 @@ body {
   text-decoration: none;
 }
 
+#musicAndVideosPage {
+  align-items: center;
+  justify-items: center;
+}
+
 .gridContainer {
   display: grid;
   grid-template-columns: 32% 32% 32%;
   gap: 0px;
   text-align: center;
-  align-items: center;
-  justify-items: center;
 }
 
 .videoContent {
