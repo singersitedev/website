@@ -339,6 +339,14 @@ body {
   #menuMainAreaBottom {
     font-size: 2vw;
   }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 49%, 49%;
+    column-gap: 2%;
+    row-gap: 20px;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -371,7 +379,7 @@ body {
   }
   .gridContainer {
     display: grid;
-    grid-template-columns: 44% 44%;
+    grid-template-columns: 100%;
     column-gap: 2%;
     row-gap: 20px;
     text-align: center;
@@ -382,13 +390,5 @@ body {
 @media screen and (max-width: 600px) {
   #home {
     background-image: url("./img/cover2.png");
-  }
-  .gridContainer {
-    display: grid;
-    grid-template-columns: 100%;
-    column-gap: 2%;
-    row-gap: 20px;
-    text-align: center;
-    width: 100%;
   }
 }
