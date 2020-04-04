@@ -213,48 +213,6 @@ body {
   }
 }
 
-@media screen and (max-width:1100px) and (max-height: 700px) {
-  #menuMainAreaBottom {
-    font-size: 2vw;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  .eventDate {
-    font-size: 6vw;
-  }
-  .eventName {
-    font-size: 4.5vw;
-  }
-  .hideMobile {
-    display: none;
-  }
-  .displayNoneMobile {
-    display: none;
-  }
-  .mobileUnhide {
-    display: block;
-  }
-  #menuMainAreaBottom {
-    font-size: 5vw;
-  }
-  #menuHomeArea {
-    font-size: 5vw;
-  }
-  /*.socialMediaIcon {
-    margin-left: 4vw;
-  }*/
-  #menu {
-    margin: 0;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  #home {
-    background-image: url("./img/cover2.png");
-  }
-}
-
 #menuMainAreaTop {
   height: 4vh;
 }
@@ -351,6 +309,7 @@ body {
   display: grid;
   grid-template-columns: 32% 32% 32%;
   column-gap: 2%;
+  row-gap: 20px;
   text-align: center;
   width: 100%;
 }
@@ -375,3 +334,53 @@ body {
 .contentHidden {
   display: none;
 }*/
+
+@media screen and (max-width:1100px) and (max-height: 700px) {
+  #menuMainAreaBottom {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .eventDate {
+    font-size: 6vw;
+  }
+  .eventName {
+    font-size: 4.5vw;
+  }
+  .hideMobile {
+    display: none;
+  }
+  .displayNoneMobile {
+    display: none;
+  }
+  .mobileUnhide {
+    display: block;
+  }
+  #menuMainAreaBottom {
+    font-size: 5vw;
+  }
+  #menuHomeArea {
+    font-size: 5vw;
+  }
+  /*.socialMediaIcon {
+    margin-left: 4vw;
+  }*/
+  #menu {
+    margin: 0;
+  }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 44% 44%;
+    column-gap: 2%;
+    row-gap: 20px;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #home {
+    background-image: url("./img/cover2.png");
+  }
+}
