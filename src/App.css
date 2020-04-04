@@ -335,7 +335,7 @@ body {
   display: none;
 }*/
 
-@media screen and (max-width: 1100) {
+@media screen and (max-width: 1200) {
   .gridContainer {
     display: grid;
     grid-template-columns: 49% 49%;
@@ -353,6 +353,17 @@ body {
   .gridContainer {
     display: grid;
     grid-template-columns: 49% 49%;
+    column-gap: 2%;
+    row-gap: 20px;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 100%;
     column-gap: 2%;
     row-gap: 20px;
     text-align: center;
