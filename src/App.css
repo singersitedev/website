@@ -339,6 +339,14 @@ body {
   align-items: center;
 }
 
+#videoAnchor {
+  display: block;
+}
+
+.pageSelectFlexContainer {
+  display: block;
+}
+
 .gridContainer {
   display: grid;
   grid-template-columns: 32% 32% 32%;
