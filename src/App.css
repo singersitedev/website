@@ -335,7 +335,7 @@ body {
   display: none;
 }*/
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1600px) {
   .gridContainer {
     display: grid;
     grid-template-columns: 49% 49%;
@@ -401,5 +401,8 @@ body {
 @media screen and (max-width: 600px) {
   #home {
     background-image: url("./img/cover2.png");
+  }
+  .gridPreviewImage {
+    width: 400px;
   }
 }
