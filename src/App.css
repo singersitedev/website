@@ -344,6 +344,9 @@ body {
   margin-top: 7px;
   margin-bottom: 7px;
   border-radius: 0px 15px 15px 0px;
+  font-family: "ArisaFont";
+  font-weight: bold;
+  font-size: 2vw;
 }
 
 .gridContainer {
