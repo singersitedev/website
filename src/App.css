@@ -309,18 +309,26 @@ body {
   margin: auto;
   justify-content: center;
   height: 100px;
+  border-radius: 15px;
 }
 
 .pageBackButton {
   width: 20%;
   margin-top: 7px;
   margin-bottom: 7px;
+  font-family: "ArisaFont";
+  font-weight: bold;
+  font-size: 90px;
+  border-radius: 15px 0px 0px 15px;
 }
 
 .pageForwardButton {
   width: 20%;
   margin-top: 7px;
   margin-bottom: 7px;
+  font-family: "ArisaFont";
+  font-weight: bold;
+  font-size: 90px;
 }
 
 .currentPageDisplay {
@@ -335,6 +343,7 @@ body {
   width: 29%;
   margin-top: 7px;
   margin-bottom: 7px;
+  border-radius: 0px 15px 15px 0px;
 }
 
 .gridContainer {
