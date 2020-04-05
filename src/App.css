@@ -325,7 +325,7 @@ body {
 
 .currentPageDisplay {
   width: 30%;
-  /*margin-top: 40px;*/
+  margin-top: 10px;
   font-family: "ArisaFont";
   font-weight: bold;
   font-size: 90px;
