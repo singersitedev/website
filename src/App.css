@@ -320,6 +320,8 @@ body {
   font-weight: bold;
   font-size: 90px;
   border-radius: 15px 0px 0px 15px;
+  background-color: black;
+  color: white;
 }
 
 .pageForwardButton {
@@ -329,6 +331,8 @@ body {
   font-family: "ArisaFont";
   font-weight: bold;
   font-size: 90px;
+  background-color: black;
+  color: white;
 }
 
 .currentPageDisplay {
@@ -344,9 +348,11 @@ body {
   margin-top: 7px;
   margin-bottom: 7px;
   border-radius: 0px 15px 15px 0px;
-  font-family: "ArisaFont";
+  font-family: "GaramondFont";
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 3vw;
+  background-color: black;
+  color: white;
 }
 
 .gridContainer {
