@@ -326,7 +326,9 @@ body {
 .currentPageDisplay {
   width: 15%;
   /*margin-top: 40px;*/
-  font-size: 30px;
+  font-family: "ArisaFont";
+  font-weight: bold;
+  font-size: 50px;
 }
 
 .confirmPageSelectButton {
