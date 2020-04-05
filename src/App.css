@@ -311,6 +311,22 @@ body {
   height: 100px;
 }
 
+.pageBackButton {
+  width: 25%;
+}
+
+.pageForwardButton {
+  width: 25%;
+}
+
+.currentPageDisplay {
+  width: 15%;
+}
+
+.confirmPageSelectButton {
+  width: 29%;
+}
+
 .gridContainer {
   display: grid;
   grid-template-columns: 32% 32% 32%;
