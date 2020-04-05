@@ -307,6 +307,7 @@ body {
   background-color: #513b41;
   text-align: center;
   margin: auto;
+  justify-content: center;
 }
 
 .gridContainer {
