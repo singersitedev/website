@@ -323,6 +323,7 @@ body {
   background-color: black;
   color: white;
   border-width: 0px;
+  cursor: pointer;
 }
 
 .pageForwardButton {
@@ -335,6 +336,7 @@ body {
   background-color: black;
   color: white;
   border-width: 0px;
+  cursor: pointer;
 }
 
 .currentPageDisplay {
@@ -346,7 +348,8 @@ body {
 }
 
 .confirmPageSelectButton {
-  width: 29%;
+  width: 27%;
+  margin-left: 2%;
   margin-top: 7px;
   margin-bottom: 7px;
   border-radius: 0px 15px 15px 0px;
@@ -356,6 +359,7 @@ body {
   background-color: black;
   color: white;
   border-width: 0px;
+  cursor: pointer;
 }
 
 .gridContainer {
