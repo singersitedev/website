@@ -306,6 +306,7 @@ body {
   display: flex;
   background-color: #513b41;
   text-align: center;
+  margin: auto;
 }
 
 .gridContainer {
@@ -326,10 +327,6 @@ body {
 }
 
 .mainContentText {
-  text-align: center;
-}
-
-.pageSelectFlexContainer {
   text-align: center;
 }
 
