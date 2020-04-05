@@ -320,7 +320,7 @@ body {
   font-weight: bold;
   font-size: 90px;
   border-radius: 15px 0px 0px 15px;
-  background-color: black;
+  background-color: #262626;
   color: white;
   border-width: 0px;
   cursor: pointer;
@@ -333,7 +333,7 @@ body {
   font-family: "ArisaFont";
   font-weight: bold;
   font-size: 90px;
-  background-color: black;
+  background-color: #262626;
   color: white;
   border-width: 0px;
   cursor: pointer;
@@ -402,10 +402,7 @@ body {
   }
 }
 
-@media screen and (max-width:1100px) and (max-height: 700px) {
-  #menuMainAreaBottom {
-    font-size: 2vw;
-  }
+@media screen and (max-width: 1100px) {
   .gridContainer {
     display: grid;
     grid-template-columns: 100%;
@@ -413,6 +410,12 @@ body {
     row-gap: 20px;
     text-align: center;
     width: 100%;
+  }
+}
+
+@media screen and (max-width:1100px) and (max-height: 700px) {
+  #menuMainAreaBottom {
+    font-size: 2vw;
   }
 }
 
