@@ -302,7 +302,9 @@ body {
 }
 
 .pageSelectFlexContainer {
-  width: 100%;
+  width: 50%;
+  display: flex;
+  background-color: #513b41;
 }
 
 .gridContainer {
@@ -334,6 +336,8 @@ body {
 .contentHidden {
   display: none;
 }*/
+
+
 
 @media screen and (max-width: 1600px) {
   .gridContainer {
