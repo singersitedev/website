@@ -313,25 +313,25 @@ body {
 
 .pageBackButton {
   width: 25%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 .pageForwardButton {
   width: 25%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 .currentPageDisplay {
   width: 15%;
-  margin-top: 30%;
+  margin-top: 40px;
 }
 
 .confirmPageSelectButton {
   width: 29%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 .gridContainer {
