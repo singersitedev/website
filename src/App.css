@@ -357,7 +357,7 @@ body {
   font-family: "GaramondFont";
   font-weight: bold;
   font-size: 3vw;
-  background-color: black;
+  background-color: #262626;
   color: white;
   border-width: 0px;
   cursor: pointer;
@@ -391,7 +391,7 @@ body {
 
 
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1625px) {
   .gridContainer {
     display: grid;
     grid-template-columns: 49% 49%;
