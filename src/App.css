@@ -322,6 +322,7 @@ body {
   border-radius: 15px 0px 0px 15px;
   background-color: black;
   color: white;
+  border-width: 0px;
 }
 
 .pageForwardButton {
@@ -333,6 +334,7 @@ body {
   font-size: 90px;
   background-color: black;
   color: white;
+  border-width: 0px;
 }
 
 .currentPageDisplay {
@@ -353,6 +355,7 @@ body {
   font-size: 3vw;
   background-color: black;
   color: white;
+  border-width: 0px;
 }
 
 .gridContainer {
